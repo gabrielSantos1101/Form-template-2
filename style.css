@@ -1,0 +1,242 @@
+:root {
+  font-size: 63%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 43.6rem;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  background: #293241;
+}
+
+body {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #4e4958;
+
+  background: #e5e5e5;
+}
+
+.wrapper {
+  max-width: 75rem;
+  margin: auto;
+}
+
+form {
+  padding: 3rem 6.4rem 6.4rem 6.4rem;
+  margin-bottom: 10rem;
+
+  border-radius: 0px 0px 20px 20px;
+  background: white;
+  color: #4e4958;
+}
+
+header .wrapper {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.6rem;
+  line-height: 4.5rem;
+
+  color: white;
+
+  margin-top: 8.5rem;
+}
+
+h2 {
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+}
+
+img {
+  margin-bottom: 3.2rem;
+}
+
+header p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+  color: white;
+
+  margin-bottom: 1rem;
+}
+
+div #header {
+  border-radius: 20px 20px 0px 0px;
+  background: #f67669;
+  height: 13.3rem;
+
+  padding: 5rem 25.5rem;
+
+  justify-content: center;
+  text-align: center;
+
+  color: white;
+}
+
+legend {
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+
+  text-align: center;
+  padding-bottom: 0.8rem;
+  margin-top: 3.2rem;
+  margin-bottom: 3.1rem;
+
+  color: #253b51;
+
+  border-bottom: 1px solid #e6e6f0;
+}
+
+label span {
+  color: #c1bccc;
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  width: 100%;
+}
+
+.date-time {
+  display: flex;
+  gap: 1rem;
+}
+
+div .name {
+  display: flex;
+  gap: 2.2rem;
+  width: 100%;
+}
+
+input:focus,
+select:focus {
+  outline: 1px solid rgb(77, 77, 77);
+}
+
+.input-wrapper {
+  width: 100%;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 1.4rem;
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+
+  margin-bottom: 0.8rem;
+}
+
+select {
+  display: flex;
+  flex-direction: column;
+  width: 37%;
+}
+
+#feedback {
+  height: 16.6rem;
+  margin-bottom: 2.8rem;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  position: relative;
+}
+
+.checkbox-wrapper input {
+  position: absolute;
+}
+
+.checkbox-wrapper label {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.checkbox-wrapper label::before {
+  content: '';
+  display: block;
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+}
+
+.checkbox-wrapper input:checked + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='18' height='14' viewBox='0 0 18 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 11.17L1.83 7L0.410004 8.41L6 14L18 2L16.59 0.589996L6 11.17Z' fill='%23F67669'/%3E%3C/svg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.checkbox-wrapper input:focus + label::before {
+  outline: 1px solid rgb(77, 77, 77);
+}
+
+#check {
+  width: 2.4rem;
+  height: 2.4rem;
+  opacity: 0;
+}
+
+input {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+  color: #5c5c5c;
+}
+
+.input-wrapper input,
+input {
+  height: 5.5rem;
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  height: 5.1rem;
+
+  margin-top: 6rem;
+
+  background: #f67669;
+  border: none;
+  border-radius: 8px;
+}
+
+button:hover {
+  background: #f65c4b;
+}
