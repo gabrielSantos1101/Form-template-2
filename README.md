@@ -2,7 +2,7 @@
 <h1 align="center"> Template de Fomulario </h1>
 
 <p align="center">
-Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
+Uma ideia de formulario para paginas de prospecção de dados.
 </p>
 
 <p align="center">
