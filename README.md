@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Uma ideia de calendario
+Uma ideia de Formulario
 
 ## :memo: Licença
 
