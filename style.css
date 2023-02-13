@@ -141,7 +141,7 @@ div .name {
 
 input:focus,
 select:focus {
-  outline: 1px solid rgb(77, 77, 77);
+  outline: 1px solid rgb(101, 101, 101);
 }
 
 .input-wrapper {
@@ -157,6 +157,23 @@ select {
   border-radius: 8px;
 
   margin-bottom: 0.8rem;
+}
+
+input:invalid {
+  border: 2px solid red;
+  animation: shake 0.2s 2;
+}
+
+@keyframes shake {
+  25% {
+    translate: 6px 0;
+  }
+  50% {
+    translate: -6px;
+  }
+  75% {
+    translate: 6px 0;
+  }
 }
 
 select {
